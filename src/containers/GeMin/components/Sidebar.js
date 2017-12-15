@@ -4,29 +4,29 @@ import React, { Component } from 'react';
 export default class Sidebar extends Component {
     render() {
         return (
-          <div classNameName="sidebar" data-color="purple" data-image="../assets/img/sidebar-1.jpg">
-            <div classNameName="logo">
-              <a href="http://www.creative-tim.com/" classNameName="simple-text">
+          <div className="sidebar" data-color="purple" data-image="../assets/img/sidebar-1.jpg">
+            <div className="logo">
+              <a href="http://www.creative-tim.com/" className="simple-text">
                     Creative Tim
               </a>
             </div>
-            <div classNameName="sidebar-wrapper ps-container ps-theme-default" data-ps-id="6081d1cb-5ecb-cc06-d15d-5ca92203b8b2">
-              <ul classNameName="nav">
-                <li classNameName="active">
+            <div className="sidebar-wrapper ps-container ps-theme-default" data-ps-id="6081d1cb-5ecb-cc06-d15d-5ca92203b8b2">
+              <ul className="nav">
+                <li className="active">
                   <a href="http://demos.creative-tim.com/material-dashboard/examples/dashboard.html">
-                    <i classNameName="material-icons">dashboard</i>
+                    <i className="material-icons">dashboard</i>
                     <p>Dashboard</p>
                   </a>
                 </li>
                 <li>
                   <a href="http://demos.creative-tim.com/material-dashboard/examples/user.html">
-                    <i classNameName="material-icons">person</i>
+                    <i className="material-icons">person</i>
                     <p>User Profile</p>
                   </a>
                 </li>
                 <li>
                   <a href="http://demos.creative-tim.com/material-dashboard/examples/table.html">
-                    <i classNameName="material-icons">content_paste</i>
+                    <i className="material-icons">content_paste</i>
                     <p>Table List</p>
                   </a>
                 </li>
@@ -61,16 +61,16 @@ export default class Sidebar extends Component {
                   </a>
                 </li>
               </ul>
-              <div className="ps-scrollbar-x-rail" style="left: 0px; bottom: 0px;">
-                <div className="ps-scrollbar-x" tabindex="0" style="left: 0px; width: 0px;">
+              <div className="ps-scrollbar-x-rail" >
+                <div className="ps-scrollbar-x" tabIndex="0" >
                 </div>
               </div>
-              <div className="ps-scrollbar-y-rail" style="top: 0px; right: 0px;">
-                <div className="ps-scrollbar-y" tabindex="0" style="top: 0px; height: 0px;">
+              <div className="ps-scrollbar-y-rail" >
+                <div className="ps-scrollbar-y" tabIndex="0" >
                 </div>
               </div>
             </div>
-          <div className="sidebar-background" style="background-image: url(../assets/img/sidebar-1.jpg) "></div>
+            <div className="sidebar-background" ></div>
           </div>
         );
     }

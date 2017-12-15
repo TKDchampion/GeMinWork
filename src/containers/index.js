@@ -5,16 +5,16 @@ import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 
 // import relative path
 import Home from './Home';
-import Todolist from './Todolist/Todolist';
 import GeMin from './GeMin/GeMin';
+import Todolist from './Todolist/Todolist';
 import NotFound from './NotFound';
 
 const Main = () => (
   <Router>
     <Switch>
       <Route exact path="/" component={Home} />
+      <Route exact path="/gemin" component={GeMin} />
       <Route exact path="/todolist" component={Todolist} />
-      <Route exact path="/gemin" component={GeMin}/>
       <Route component={NotFound} />
     </Switch>
   </Router>
