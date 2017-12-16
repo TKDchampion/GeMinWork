@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Row, Col } from "reactstrap";
-import Card1 from './Card1';
-import Card2 from './Card2';
+import Card1 from './../Card1/Card1';
+import Card2 from './../Card2/Card2';
 
 export default class Panelcontent extends Component {
     render() {

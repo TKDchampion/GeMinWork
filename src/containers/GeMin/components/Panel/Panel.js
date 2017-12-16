@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import Panelheader from './Panelheader';
-import Panelcontent from './Panelcontent';
+import Panelheader from './../Panelheader/Panelheader';
+import Panelcontent from './../Panelcontent/Panelcontent';
 
 import './Panel.less';
 
