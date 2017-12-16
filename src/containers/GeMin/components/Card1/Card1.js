@@ -1,17 +1,18 @@
 import React, { Component } from "react";
 import FontAwesome from 'react-fontawesome';
+import './Card1.less';
 
 export default class Card1 extends Component {
     render() {
         return (
           <div className="card1">
             <div className="card-header" data-background-color="orange">
-              <i className="material-icons">content_copy</i>
+              <FontAwesome name="window-restore" />
             </div>
             <div className="card-content">
               <p className="category">Used Space</p>
-              <h3 className="title">49/50
-                        <small>GB</small>
+              <h3 className="title">49/50<br/>
+                <small>GB</small>
               </h3>
             </div>
             <div className="card-footer">
