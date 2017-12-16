@@ -27,7 +27,9 @@ export default class Sidebar extends Component {
   ];
     render() {
         return (
-          <div id="sidebar" data-image="../assets/img/sidebar-1.jpg">
+          <div id="sidebar">
+            <div className="img" />
+            <div className="cover">
             <div className="logo">
               <a href="http://www.creative-tim.com/" className="simple-text">
                     Creative Tim
@@ -45,6 +47,7 @@ export default class Sidebar extends Component {
                     />)
                 }
               </ul>
+            </div>
             </div>
           </div>
         );
