@@ -1,30 +1,29 @@
 import React, { Component } from 'react';
-import SidebarItem from './SidebarItem';
+import SidebarItem from './../SidebarItem/SidebarItem';
+import Sidebarcolor from './../Sidebarcolor/Sidebarcolor';
 import './Sidebar.less';
 
 
 export default class Sidebar extends Component {
-  array = [{href: "http://demos.creative-tim.com/material-dashboard/examples/dashboard.html",
-                icon: "dashboard",
-                name: "Dashboard"},
-                {href: "http://demos.creative-tim.com/material-dashboard/examples/user.html",
-                icon: "person",
-                name: "User Profile"},
-                {href: "http://demos.creative-tim.com/material-dashboard/examples/table.html",
-                icon: "content_paste",
-                name: "Table divst"},
-                {href: "http://demos.creative-tim.com/material-dashboard/examples/icons.html",
-                icon: "bubble_chart",
-                name: "Icons"},
-                {href: "http://demos.creative-tim.com/material-dashboard/examples/maps.html",
-                icon: "location_on",
-                name: "Maps"},
-                {href: "http://demos.creative-tim.com/material-dashboard/examples/notifications.html",
-                icon: "notifications",
-                name: "Notifications"},
-                {href: "http://demos.creative-tim.com/material-dashboard/examples/upgrade.html",
-                icon: "unarchive",
-                name: "Upgrade to PRO"},
+  array = [
+            {href: "http://demos.creative-tim.com/material-dashboard/examples/user.html",
+            icon: "person",
+            name: "User Profile"},
+            {href: "http://demos.creative-tim.com/material-dashboard/examples/table.html",
+            icon: "content_paste",
+            name: "Table divst"},
+            {href: "http://demos.creative-tim.com/material-dashboard/examples/icons.html",
+            icon: "bubble_chart",
+            name: "Icons"},
+            {href: "http://demos.creative-tim.com/material-dashboard/examples/maps.html",
+            icon: "location_on",
+            name: "Maps"},
+            {href: "http://demos.creative-tim.com/material-dashboard/examples/notifications.html",
+            icon: "notifications",
+            name: "Notifications"},
+            {href: "http://demos.creative-tim.com/material-dashboard/examples/upgrade.html",
+            icon: "unarchive",
+            name: "Upgrade to PRO"},
   ];
     render() {
         return (
@@ -36,6 +35,7 @@ export default class Sidebar extends Component {
             </div>
             <div className="sidebar-wrapper">
               <ul className="nav">
+                <Sidebarcolor />
                 {
                   this.array.map(object =>
                     <SidebarItem
