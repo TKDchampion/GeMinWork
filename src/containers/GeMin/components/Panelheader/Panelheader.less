@@ -1,19 +1,44 @@
 #Panelheader {
+    display: flex;
+    padding: 15px 20px;
+    justify-content: space-between;
     .Panelheader-icon {
+        justify-content: flex-end;
         .th {
+            padding: 0px 10px;
             font-size: 25px;
         }
         .bell {
+            padding: 0px 10px;
+            position: relative;
             font-size: 25px;
+            .notification {
+                position: absolute;
+                top: -10px;
+                right: -2px;
+                width: 25px;
+                height: 25px;
+                border-radius: 25px;
+                background-color: red;
+                color: aliceblue;
+                font-size: 20px;
+                text-align: center;
+                span{
+                    line-height: center;
+                }
+            }
         }
         .user {
+            padding: 0px 10px;
             font-size: 25px;
         }
     }
     .Panelheader-search {
+        display: flex;
         .btn {
-
-            border-radius: 40px;
+            width: 35px;
+            height: 35px;
+            border-radius: 35px;
         }
     }
 
