@@ -1,6 +1,8 @@
 import React from 'react';
 // import package
 import { HashRouter as Router, Route, Switch } from 'react-router-dom';
+import 'font-awesome/css/font-awesome.min.css';
+import 'bootstrap/dist/css/bootstrap.css';
 // import 'ress/dist/ress.min.css';
 
 // import relative path
