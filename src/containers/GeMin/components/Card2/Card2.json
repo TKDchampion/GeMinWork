@@ -1,0 +1,26 @@
+[
+  {
+    "category": "Daily Sales",
+    "title": "55% increase in today sales.",
+    "footername": "clock-o",
+    "footerword":"updated 4 minutes ago",
+    "background":"#ffa726",
+    "img":"card2-1.jpg"
+  },
+  {
+    "category": "Email Subscriptions",
+    "title": "Last Campaign Performance",
+    "footername": "clock-o",
+    "footerword":"campaign sent 2 days ago",
+    "background":"#43a047",
+    "img":"card2-2.jpg"
+  },
+  {
+    "category": "Completed Tasks",
+    "title": "Last Campaign Performance",
+    "footername": "clock-o",
+    "footerword":"campaign sent 2 days ago",
+    "background":"#e53935",
+    "img":"card2-3.jpg"
+  }
+]

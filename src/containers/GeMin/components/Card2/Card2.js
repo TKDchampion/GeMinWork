@@ -1,24 +1,38 @@
 import React, { Component } from "react";
 import FontAwesome from 'react-fontawesome';
+import PropType from 'prop-types';
 import './Card2.less';
 
 export default class Card2 extends Component {
+  static propType = {
+    category: PropType.string,
+    title: PropType.string,
+    footername: PropType.string,
+    footerword: PropType.string,
+    backgroundColor: PropType.string,
+    img: PropType.string
+  }
     render() {
+      const bgStyle = {
+        backgroundImage: `URL("${this.props.img}")`,
+        backgroundColor: this.props.backgroundColor
+      };
         return (
           <div className="card2">
-            <div className="card-header" data-background-color="orange">
-              <FontAwesome name="window-restore" />
+            <div className="card-header" style={bgStyle}>
+              <span />
             </div>
             <div className="card-content">
-              <p className="category">Used Space</p>
-              <h3 className="title">49/50
-                <small>GB</small>
+              <p className="category">{this.props.category}</p>
+              <h3 className="title">{this.props.title}
               </h3>
             </div>
             <div className="card-footer">
               <div className="stats">
-                <FontAwesome name="warning" />
-                <a href="http://demos.creative-tim.com/material-dashboard/examples/dashboard.html?_ga=2.28571388.179549990.1512119107-399052212.1512119107#pablo">Get More Space...</a>
+                <span>
+                  <FontAwesome name={this.props.footername} />
+                </span>
+                <a>{this.props.footerword}</a>
               </div>
             </div>
           </div>
