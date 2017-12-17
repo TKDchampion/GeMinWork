@@ -5,7 +5,7 @@
     "footername": "clock-o",
     "footerword":"updated 4 minutes ago",
     "background":"#43a047",
-    "img":"card2-1.jpg"
+    "img":"https://raw.githubusercontent.com/TKDchampion/GeMin/master/src/containers/GeMin/components/Card2/card2-1.jpg"
   },
   {
     "category": "Email Subscriptions",
@@ -13,7 +13,7 @@
     "footername": "clock-o",
     "footerword":"campaign sent 2 days ago",
     "background":"#ffa726",
-    "img":"card2-2.jpg"
+    "img":"https://raw.githubusercontent.com/TKDchampion/GeMin/master/src/containers/GeMin/components/Card2/card2-2.jpg"
   },
   {
     "category": "Completed Tasks",
@@ -21,6 +21,6 @@
     "footername": "clock-o",
     "footerword":"campaign sent 2 days ago",
     "background":"#e53935",
-    "img":"card2-3.jpg"
+    "img":"https://raw.githubusercontent.com/TKDchampion/GeMin/master/src/containers/GeMin/components/Card2/card2-3.jpg"
   }
 ]
