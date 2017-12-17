@@ -1,23 +1,23 @@
 [
   {
-    "category": "Daily Sales",
-    "title": "55% increase in today sales.",
+    "title": "Daily Sales",
+    "category": "55% increase in today sales.",
     "footername": "clock-o",
     "footerword":"updated 4 minutes ago",
     "background":"#43a047",
     "img":"https://raw.githubusercontent.com/TKDchampion/GeMin/master/src/containers/GeMin/components/Card2/card2-1.jpg"
   },
   {
-    "category": "Email Subscriptions",
-    "title": "Last Campaign Performance",
+    "title": "Email Subscriptions",
+    "category": "Last Campaign Performance",
     "footername": "clock-o",
     "footerword":"campaign sent 2 days ago",
     "background":"#ffa726",
     "img":"https://raw.githubusercontent.com/TKDchampion/GeMin/master/src/containers/GeMin/components/Card2/card2-2.jpg"
   },
   {
-    "category": "Completed Tasks",
-    "title": "Last Campaign Performance",
+    "title": "Completed Tasks",
+    "category": "Last Campaign Performance",
     "footername": "clock-o",
     "footerword":"campaign sent 2 days ago",
     "background":"#e53935",

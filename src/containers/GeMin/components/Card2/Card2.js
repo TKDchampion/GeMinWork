@@ -23,9 +23,8 @@ export default class Card2 extends Component {
               <span />
             </div>
             <div className="card-content">
+              <h3 className="title">{this.props.title}</h3>
               <p className="category">{this.props.category}</p>
-              <h3 className="title">{this.props.title}
-              </h3>
             </div>
             <div className="card-footer">
               <div className="stats">
