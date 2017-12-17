@@ -5,7 +5,7 @@ import './Sidebar.less';
 
 
 export default class Sidebar extends Component {
-  array = [
+  Sidebar = [
             {href: "http://demos.creative-tim.com/material-dashboard/examples/user.html",
             icon: "person",
             name: "User Profile"},
@@ -30,24 +30,24 @@ export default class Sidebar extends Component {
           <div id="sidebar">
             <div className="img" />
             <div className="cover">
-            <div className="logo">
-              <a href="http://www.creative-tim.com/" className="simple-text">
-                    Creative Tim
-              </a>
-            </div>
-            <div className="sidebar-wrapper">
-              <ul className="nav">
-                <Sidebarcolor />
-                {
-                  this.array.map(object =>
-                    <SidebarItem
-                      href={object.href}
-                      icon={object.icon}
-                      name={object.name}
-                    />)
-                }
-              </ul>
-            </div>
+              <div className="logo">
+                <a href="http://www.creative-tim.com/" className="simple-text">
+                      Creative Tim
+                </a>
+              </div>
+              <div className="sidebar-wrapper">
+                <ul className="nav">
+                  <Sidebarcolor />
+                  {
+                    this.Sidebar.map(object =>
+                      <SidebarItem
+                        href={object.href}
+                        icon={object.icon}
+                        name={object.name}
+                      />)
+                  }
+                </ul>
+              </div>
             </div>
           </div>
         );
