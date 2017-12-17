@@ -19,6 +19,9 @@ export default class Panelcontent extends Component {
                       footername={card.footername}
                       href={card.href}
                       footerword={card.footerword}
+                      backgroundColor={card.background}
+                      color={card.color}
+                      footercolor={card.footercolor}
                     />
                   </Col>
                 )

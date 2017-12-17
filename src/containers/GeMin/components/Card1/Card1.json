@@ -5,30 +5,39 @@
     "title": "49/50   GB",
     "footername": "warning",
     "href": "http://demos.creative-tim.com/material-dashboard/examples/dashboard.html?_ga=2.28571388.179549990.1512119107-399052212.1512119107#pablo",
-    "footerword":"Get More Space..."
+    "footerword":"Get More Space...",
+    "background":"#ffa726",
+    "color": "#f44336",
+    "footercolor":"#9c27b0"
   },
   {
     "headername": "money",
     "category": "Revenue",
     "title": "$34,245",
     "footername": "calendar",
-    "href": "",
-    "footerword":"Last 24 Hours"
+    "footerword":"Last 24 Hours",
+    "background":"#43a047",
+    "color":"fff",
+    "footercolor":"fff"
   },
   {
     "headername": "exclamation-circle",
     "category": "Fixed Issues",
     "title": "75",
     "footername": "tag",
-    "href": "",
-    "footerword":"Tracked from Github"
+    "footerword":"Tracked from Github",
+    "background":"#e53935",
+    "color":"fff",
+    "footercolor":"fff"
   },
   {
     "headername": "square-o",
     "category": "Followers",
     "title": "+245",
     "footername": "clock-o",
-    "href": "",
-    "footerword":"Just Updated"
+    "footerword":"Just Updated",
+    "background":"#00acc1",
+    "color":"fff",
+    "footercolor":"fff"
   }
 ]

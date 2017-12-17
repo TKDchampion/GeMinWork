@@ -10,12 +10,15 @@ export default class Card1 extends Component {
     title: PropType.string,
     footername: PropType.string,
     href: PropType.string,
-    footerword: PropType
+    footerword: PropType.string,
+    backgroundColor: PropType.string,
+    color: PropType.string,
+    footercolor: PropType.string
   }
     render() {
         return (
           <div className="card1">
-            <div className="card-header" data-background-color="orange">
+            <div className="card-header" style={{backgroundColor: this.props.backgroundColor }}>
               <FontAwesome name={this.props.headername} />
             </div>
             <div className="card-content">
@@ -25,8 +28,10 @@ export default class Card1 extends Component {
             </div>
             <div className="card-footer">
               <div className="stats">
-                <FontAwesome name={this.props.footername} />
-                <a href={this.props.href}>{this.props.footerword}</a>
+                <span style={{color: this.props.color}}>
+                  <FontAwesome name={this.props.footername} />
+                </span>
+                <a href={this.props.href} style={{color: this.props.footercolor}}>{this.props.footerword}</a>
               </div>
             </div>
           </div>
