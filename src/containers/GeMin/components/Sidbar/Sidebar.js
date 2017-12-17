@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import SidebarItem from './../SidebarItem/SidebarItem';
-import Sidebarcolor from './../Sidebarcolor/Sidebarcolor';
+import SidebarItem from '../SidebarItem/SidebarItem';
+import Sidebarcolor from '../Sidebarcolor/Sidebarcolor';
 import './Sidebar.less';
 
 
